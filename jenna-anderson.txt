@@ -116,14 +116,30 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     git push -u origin repo-name
 
     37. Walk me through Lambda's git flow. 
-    
+    On Github, Fork the repo so it is copied to your personal account
+    Clone the repo so it is on your local computer using: git clone repoURL
+    Move into the directory the repo is in using cd repoName
+    Create a branch using git checkout -b 'firstname-lastname'
+    Add your changes to the staging area using git add .
+    Commit your changes using git commit -m "comment explaining changes made"
+    Push your changes back to the remote host (Github) using git push -u origin 'firstname-lastname'
+    Request a Pull of your changes (making sure the base repo is your fork and not Lambda's original repo)
+
+
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    An inline element won't push other elements onto a new line, it will stay on the same line such as <span>. A block element will take up the whole line.
+
     2. What happens when an element is positioned absolutely? 
+    The element will exist in its own flow and not affect the layout of other elements on the page.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
